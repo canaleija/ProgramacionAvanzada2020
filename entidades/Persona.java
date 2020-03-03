@@ -44,6 +44,9 @@ public class Persona{
         this.peso = peso ;
     }
    
+    public void saludar(){
+        System.out.println("Hola");
+    }
 
 
 
