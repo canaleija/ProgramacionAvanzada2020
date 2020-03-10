@@ -10,7 +10,7 @@ public class Main {
       //ale.saludar();
       Alumno rocio = new Alumno();
       rocio.saludar();
-       
+      
     
 
       
