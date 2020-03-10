@@ -14,6 +14,9 @@ public class Materia{
         this.nombre = "";
         this.aula = "";
         this.creditos = 0;
+        this.horario = new Horario();
+        // este constructor de docente tiene una parte nula
+        this.docente = new Docente();
 
     }
 

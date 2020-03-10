@@ -1,10 +1,17 @@
 package entidades;
 
-public class Docente{
+public class Docente extends Persona{
 
     private double salario;
     private String[] materias;
     private Horario horario;
+
+    public Docente() {
+        this.salario = 0;
+        // warning 
+        this.materias = null;
+        this.horario = new Horario();
+    }
 
 
     public Docente(int tmaterias) {
