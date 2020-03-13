@@ -14,10 +14,10 @@ public class Main {
       decano.setHorario(new Horario("7:00","14:00"));
 
       Docente oswi = new Docente();
-      decano.setNombre("Beto oswaldo");
-      decano.setEdad(28);
-      decano.setSalario(4121.50);
-      decano.setHorario(new Horario("8:00","16:00"));
+      oswi.setNombre("Beto oswaldo");
+      oswi.setEdad(28);
+      oswi.setSalario(4121.50);
+      oswi.setHorario(new Horario("8:00","16:00"));
 
 
       Materia[] materias = new Materia[3];
